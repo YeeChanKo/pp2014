@@ -49,6 +49,7 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
+[Rr]esources
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -77,6 +78,7 @@ build/
 *.pidb
 *.log
 *.scc
+*.resources
 
 # Visual C++ cache files
 ipch/
@@ -213,3 +215,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#Resources Files
+*.bmp
+*.png
+*.jpg
+*.jpeg
+*.wav
