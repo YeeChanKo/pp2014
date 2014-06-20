@@ -29,31 +29,47 @@ namespace SnakeGameNew
             InitializeComponent();
 
             StartPageRender.Enabled = true;
-            StartPageRender.Interval = 5;
+            StartPageRender.Interval = 100;
 
             GamePageRender.Enabled = false;
-            GamePageRender.Interval = 5;
+            GamePageRender.Interval = 100;
 
             GameLogic.Enabled = false;
-            GameLogic.Interval = 500;
+            GameLogic.Interval = 200;
 
             Sound.opening.Play();
         }
 
         private void StartPageRender_Tick(object sender, EventArgs e)
         {
-            Start.Render(viewnumber,this);
+            Start.Render(viewnumber, this);
         }
 
         private void GamePageRender_Tick(object sender, EventArgs e)
         {
             Game.Render(this, directionnow, ref score, ref level, ref gamestatus);
-            
-            GameLogic.Interval = 200 - (level - 1) * 20; // 뱀 이동 속도
+
+            GameLogic.Interval = 500 - level * 10; // 뱀 이동 속도
             if (gamestatus == false) // 게임오버
             {
                 GameLogic.Enabled = false;
                 GamePageRender.Enabled = false;
+                gamestatus = true;
+
+                Bitmap screen = new Bitmap(600, 600);
+                Graphics back = Graphics.FromImage(screen);
+                Graphics front = CreateGraphics();
+                Bitmap transblack = new Bitmap(Properties.Resources.transblack, 600, 600);
+                back.DrawImage(transblack, 0, 0);
+                back.DrawString("YOU LOSE!", new Font("나눔고딕", 50, GraphicsUnit.Pixel), Brushes.White, 170, 280);
+                front.DrawImage(screen, 0, 0);
+                back.Dispose();
+                front.Dispose();
+
+                System.Threading.Thread.Sleep(3000);
+                Game = new GamePage();
+                StartPageRender.Enabled = true;
+                directionnow = 1;
             }
         }
 
@@ -133,6 +149,7 @@ namespace SnakeGameNew
                     Graphics stoppage = CreateGraphics();
                     Bitmap transblack = new Bitmap(Properties.Resources.transblack, 600, 600);
                     stoppage.DrawImage(transblack, 0, 0);
+                    stoppage.Dispose();
                 }
                 else if (stopgame == true)
                 {

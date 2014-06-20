@@ -27,8 +27,21 @@ namespace SnakeGameNew
             level = 1;
 
             int x = 0, y = 0;
-            do { x = r.Next(0, 20); y = r.Next(0, 19); } while (map[x, y] != 0);
+            do { x = r.Next(1,19); y = r.Next(1,19); } while (map[x, y] != 0);
             map[x, y] = 2;
+            // 꽃 입력
+
+            for (int i = 0; i < 20; i++)
+            {
+                for (int j = 0; j < 20; j++)
+                {
+                    if (i == 0 || i == 19 || j == 0 || j == 19) // 바깥 벽돌(3) 만들어주기
+                    {
+                        map[i, j] = 3;
+                    }
+                }
+            }
+            // 벽돌 입력
         }
 
         public void AddSnakeUnit(int x, int y, int d)

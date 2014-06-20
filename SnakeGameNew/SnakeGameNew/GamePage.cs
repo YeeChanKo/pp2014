@@ -15,6 +15,12 @@ namespace SnakeGameNew
         Random r = new Random();
         public int directionnow;
         public GameUnit g = new GameUnit();
+        SnakeUnit temp;
+        SnakeUnit temp2;
+        bool ToRightError;
+        bool ToLeftError;
+        bool ToDownError;
+        bool ToUpError;
 
         Bitmap background = new Bitmap(Properties.Resources.background, 600, 600);
         Bitmap grasstile = new Bitmap(Properties.Resources.grass_tile, 30, 30);
@@ -33,13 +39,13 @@ namespace SnakeGameNew
         Bitmap flower = new Bitmap(Properties.Resources.flower, 30, 30);
         Bitmap brick = new Bitmap(Properties.Resources.RedBrick, 30, 30);
 
-        public void Render(Form MainForm, int direction, ref int score, ref int level, ref bool gamestatus) // direction, score, level, gamestatus 받음
+        public void Render(Form MainForm, int direction, ref int score, ref int level, ref bool gamestatus)
         {
-            bool ToRightEroor = (g.head.x + 1 == g.head.next.x) && (g.head.y == g.head.next.y) && direction == 1;
-            bool ToLeftError = (g.head.x - 1 == g.head.next.x) && (g.head.y == g.head.next.y) && direction == 2;
-            bool ToDownError = (g.head.x == g.head.next.x) && (g.head.y + 1 == g.head.next.y) && direction == 3;
-            bool ToUpError = (g.head.x == g.head.next.x) && (g.head.y - 1 == g.head.next.y) && direction == 4;
-            if (!(ToRightEroor || ToLeftError || ToDownError || ToUpError))
+            ToRightError = (g.head.x + 1 == g.head.next.x) && (g.head.y == g.head.next.y) && direction == 1;
+            ToLeftError = (g.head.x - 1 == g.head.next.x) && (g.head.y == g.head.next.y) && direction == 2;
+            ToDownError = (g.head.x == g.head.next.x) && (g.head.y + 1 == g.head.next.y) && direction == 3;
+            ToUpError = (g.head.x == g.head.next.x) && (g.head.y - 1 == g.head.next.y) && direction == 4;
+            if (!(ToRightError || ToLeftError || ToDownError || ToUpError))
             {
                 directionnow = direction;
             }
@@ -47,6 +53,7 @@ namespace SnakeGameNew
             score = g.score;
             level = g.level;
             gamestatus = g.gamestatus;
+            //여기서 값 다 받는다: direction, score, level, gamestatus
 
             Bitmap screen = new Bitmap(600, 600);
             Graphics back = Graphics.FromImage(screen);
@@ -56,19 +63,17 @@ namespace SnakeGameNew
             back.DrawString("Score: " + score, new Font("나눔고딕", 20, GraphicsUnit.Pixel), Brushes.White, 30, 575);
             back.DrawString("Level " + level, new Font("나눔고딕", 20, GraphicsUnit.Pixel), Brushes.White, 505, 575);
             front.DrawImage(screen, 0, 0);
+            back.Dispose();
+            front.Dispose();
         }
 
         public void RenderCalculator(Form MainForm, Graphics back) // 모든 좌표(0-빈공간,1-뱀,2-꽃,3-장애물) 렌더
         {
+            // 뱀 기준으로 바뀐 부분만 랜더링해서 알고리즘 효율 향상시키기
             for (int i = 0; i < 20; i++)
             {
                 for (int j = 0; j < 20; j++)
                 {
-                    if (i == 0 || i == 19 || j == 0 || j == 19) // 바깥 벽돌(3) 만들어주기
-                    {
-                        g.map[i, j] = 3;
-                    }
-
                     if (g.map[i, j] == 0) // 0일 경우
                     {
                         back.DrawImage(grasstile, i * 30, j * 30);
@@ -115,25 +120,25 @@ namespace SnakeGameNew
                         }
                         else // body일 경우
                         {
-                            SnakeUnit temp = g.head;
-                            while (!(temp.x == i && temp.y == j))
+                            temp2 = g.head; // 메모리를 위해 위에서 한번만 선언
+                            while (!(temp2.x == i && temp2.y == j))
                             {
-                                temp = temp.next;
+                                temp2 = temp2.next;
                             }
 
-                            if (temp.d == 1)
+                            if (temp2.d == 1)
                             {
                                 back.DrawImage(snakebody1, i * 30, j * 30);
                             }
-                            else if (temp.d == 2)
+                            else if (temp2.d == 2)
                             {
                                 back.DrawImage(snakebody2, i * 30, j * 30);
                             }
-                            else if (temp.d == 3)
+                            else if (temp2.d == 3)
                             {
                                 back.DrawImage(snakebody3, i * 30, j * 30);
                             }
-                            else if (temp.d == 4)
+                            else if (temp2.d == 4)
                             {
                                 back.DrawImage(snakebody4, i * 30, j * 30);
                             }
@@ -156,7 +161,7 @@ namespace SnakeGameNew
 
         public void SnakeMoveCalculator() // 움직임에 따른 좌표 이동
         {
-            SnakeUnit temp = g.tail;
+            temp = g.tail; // 메모리를 위해 위에서 한번만 선언
 
             int tailpastx = temp.x;
             int tailpasty = temp.y;
@@ -241,12 +246,11 @@ namespace SnakeGameNew
             {
                 Sound.eatflower.Play();
                 g.AddSnakeUnit(tailpastx, tailpasty, tailpastd);
-                g.score += 10 * g.level;
+                g.score += 10;
                 CreateFlower();
             }
 
-            int check = g.score / 50;
-            g.level = check + 1;
+            g.level = (g.score/50) + 1;
         }
 
         public void CreateFlower() // 꽃생성
@@ -255,8 +259,8 @@ namespace SnakeGameNew
             int y = 0;
             do
             {
-                x = r.Next(0, 20);
-                y = r.Next(0, 19);
+                x = r.Next(1,19);
+                y = r.Next(1,19);
             } while (g.map[x, y] != 0);
             g.map[x, y] = 2;
         }
