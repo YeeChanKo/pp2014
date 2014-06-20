@@ -1,0 +1,9 @@
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\bin\Debug\gee.exe.config
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\bin\Debug\gee.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\bin\Debug\gee.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\obj\Debug\gee.csprojResolveAssemblyReference.cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\obj\Debug\gee.Form1.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\obj\Debug\gee.Properties.Resources.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\obj\Debug\gee.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\obj\Debug\gee.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\gee\gee\obj\Debug\gee.pdb

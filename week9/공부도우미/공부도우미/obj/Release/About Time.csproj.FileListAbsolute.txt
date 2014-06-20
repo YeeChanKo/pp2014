@@ -1,0 +1,12 @@
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\bin\Release\공부도우미.exe.config
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\bin\Release\공부도우미.exe.manifest
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\bin\Release\공부도우미.application
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\bin\Release\공부도우미.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\bin\Release\공부도우미.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\공부도우미.Form1.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\공부도우미.Properties.Resources.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\About Time.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\공부도우미.exe.manifest
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\공부도우미.application
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\공부도우미.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week9\공부도우미\공부도우미\obj\Release\공부도우미.pdb

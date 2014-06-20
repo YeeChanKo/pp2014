@@ -1,0 +1,9 @@
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\bin\Debug\network client.exe.config
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\bin\Debug\network client.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\bin\Debug\network client.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\obj\Debug\network client.csprojResolveAssemblyReference.cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\obj\Debug\network_client.Form1.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\obj\Debug\network_client.Properties.Resources.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\obj\Debug\network client.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\obj\Debug\network client.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week15\network client\network client\obj\Debug\network client.pdb

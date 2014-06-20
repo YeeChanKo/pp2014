@@ -1,0 +1,9 @@
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\bin\Debug\PhoneData.exe.config
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\bin\Debug\PhoneData.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\bin\Debug\PhoneData.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\obj\Debug\PhoneData.Form1.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\obj\Debug\PhoneData.Properties.Resources.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\obj\Debug\PhoneData.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week11\PhoneData\PhoneData\obj\Debug\PhoneData.pdb

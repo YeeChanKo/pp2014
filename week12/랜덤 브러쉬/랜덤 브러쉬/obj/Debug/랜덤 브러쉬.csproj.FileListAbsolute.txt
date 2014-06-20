@@ -1,0 +1,9 @@
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\bin\Debug\랜덤 브러쉬.exe.config
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\bin\Debug\랜덤 브러쉬.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\bin\Debug\랜덤 브러쉬.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\obj\Debug\랜덤_브러쉬.Form1.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\obj\Debug\랜덤_브러쉬.Properties.Resources.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\obj\Debug\랜덤 브러쉬.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\obj\Debug\랜덤 브러쉬.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\obj\Debug\랜덤 브러쉬.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\랜덤 브러쉬\랜덤 브러쉬\obj\Debug\랜덤 브러쉬.csprojResolveAssemblyReference.cache

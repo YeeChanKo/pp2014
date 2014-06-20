@@ -1,0 +1,20 @@
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\bin\Debug\miro.exe.config
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\obj\Debug\miro.csprojResolveAssemblyReference.cache
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\obj\Debug\miro.Form1.resources
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\obj\Debug\miro.Properties.Resources.resources
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\obj\Debug\miro.csproj.GenerateResource.Cache
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\bin\Debug\miro.exe
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\bin\Debug\miro.pdb
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\obj\Debug\miro.exe
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\obj\Debug\miro.pdb
+C:\Users\hoyoung\Documents\GitHub\prostar\Network\miro\miro\bin\Debug\Resources\map.txt
+C:\Users\YeeChan Ko\Desktop\miro\miro\bin\Debug\miro.exe.config
+C:\Users\YeeChan Ko\Desktop\miro\miro\obj\Debug\miro.exe
+C:\Users\YeeChan Ko\Desktop\miro\miro\obj\Debug\miro.pdb
+C:\Users\YeeChan Ko\Desktop\miro\miro\obj\Debug\miro.csprojResolveAssemblyReference.cache
+C:\Users\YeeChan Ko\Desktop\miro\miro\obj\Debug\miro.Form1.resources
+C:\Users\YeeChan Ko\Desktop\miro\miro\obj\Debug\miro.Properties.Resources.resources
+C:\Users\YeeChan Ko\Desktop\miro\miro\obj\Debug\miro.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Desktop\miro\miro\bin\Debug\Resources\map.txt
+C:\Users\YeeChan Ko\Desktop\miro\miro\bin\Debug\miro.exe
+C:\Users\YeeChan Ko\Desktop\miro\miro\bin\Debug\miro.pdb

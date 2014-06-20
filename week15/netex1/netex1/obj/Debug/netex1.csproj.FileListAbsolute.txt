@@ -1,0 +1,6 @@
+C:\Data\1.자료구조및알고리즘I\netex1\netex1\bin\Debug\netex1.exe.config
+C:\Data\1.자료구조및알고리즘I\netex1\netex1\bin\Debug\netex1.exe
+C:\Data\1.자료구조및알고리즘I\netex1\netex1\bin\Debug\netex1.pdb
+C:\Data\1.자료구조및알고리즘I\netex1\netex1\obj\Debug\netex1.csprojResolveAssemblyReference.cache
+C:\Data\1.자료구조및알고리즘I\netex1\netex1\obj\Debug\netex1.exe
+C:\Data\1.자료구조및알고리즘I\netex1\netex1\obj\Debug\netex1.pdb

@@ -1,0 +1,9 @@
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\bin\Debug\Painter.exe.config
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\bin\Debug\Painter.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\bin\Debug\Painter.pdb
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\obj\Debug\Painter.csprojResolveAssemblyReference.cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\obj\Debug\Painter.Form1.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\obj\Debug\Painter.Properties.Resources.resources
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\obj\Debug\Painter.csproj.GenerateResource.Cache
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\obj\Debug\Painter.exe
+C:\Users\YeeChan Ko\Documents\GitHub\pp2014\week12\Painter\Painter\obj\Debug\Painter.pdb
