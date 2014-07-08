@@ -32,7 +32,7 @@ namespace SnakeGameNew
             StartPageRender.Interval = 100;
 
             GamePageRender.Enabled = false;
-            GamePageRender.Interval = 100;
+            GamePageRender.Interval = 50;
 
             GameLogic.Enabled = false;
             GameLogic.Interval = 200;
@@ -49,7 +49,7 @@ namespace SnakeGameNew
         {
             Game.Render(this, directionnow, ref score, ref level, ref gamestatus);
 
-            GameLogic.Interval = 500 - level * 10; // 뱀 이동 속도
+            GameLogic.Interval = 200; // 뱀 이동 속도
             if (gamestatus == false) // 게임오버
             {
                 GameLogic.Enabled = false;
